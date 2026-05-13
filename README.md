@@ -1,3 +1,3 @@
 # Koba-PC16bits-Juego
 
-Leandro
+Integrantes: Leandro Caraballo; Antonio Gomez; Facundo Naveira
