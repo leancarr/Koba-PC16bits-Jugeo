@@ -1,42 +1,88 @@
-# Koba-PC16bits-Juego
+Koba-PC16bits-Juego
+Minijuego: Donkey Kong
+Integrantes: Leandro Caraballo, Antonio Gomez, Facundo Naveira, Luca Mamani.
 
-## Minijuego: Donkey Kong
+El juego es un clásico de plataformas de pantallas fijas donde todo el reto pasa por la precisión, el ritmo y el cálculo de tiempos.
 
-Integrantes: Leandro Caraballo; Antonio Gomez; Facundo Naveira; Luca Mamani
-
-El juego es un clásico de plataformas de pantallas fijas donde todo el reto pasa por la precisión y el ritmo.
-
-### ¿Cómo se juega y cuáles son las mecánicas?
-
+¿Cómo se juega y cuáles son las mecánicas?
 Controlás a un personaje bastante limitado en sus movimientos: solo podés moverte de izquierda a derecha, subir o bajar escaleras, y saltar. El gran desafío es el diseño de los niveles, que están llenos de plataformas inclinadas y rampas.
 
 A medida que intentás subir, te caen un montón de barriles desde arriba. Algunos bajan rodando en línea recta y otros caen de golpe por las escaleras, por lo que tenés que calcular muy bien el tiempo para saltarlos en el momento justo o esperarlos en una zona segura.
 
-Además de los barriles, hay otros peligros móviles, como unas pequeñas llamas de fuego que aparecen de repente y te empiezan a perseguir de forma bastante impredecible por todo el mapa. Para defenderte, en algunas pantallas hay martillos flotando. Si saltás y agarrás uno, tu personaje empieza a golpear automáticamente hacia adelante durante unos segundos; esto te permite destruir cualquier barril o fuego que se te cruce, pero tiene una desventaja: mientras tenés el martillo, no podés saltar ni subir escaleras, quedás atrapado en esa plataforma hasta que se le termine el efecto.
+Además de los barriles, hay otros peligros móviles, como unas pequeñas llamas de fuego que aparecen de repente y te empiezan a perseguir de forma bastante impredecible por todo el mapa. Para defenderte, en algunas pantallas hay martillos flotando. Si saltás y agarrás uno, tu personaje empieza a golpear automáticamente hacia adelante durante unos segundos; esto te permite destruir cualquier barril o fuego que se te cruce, pero tiene una desventaja: mientras tenés el martillo, no podés saltar ni subir escaleras, quedando atrapado en esa plataforma hasta que se le termine el efecto.
 
-### ¿Cómo se gana?
+Escenarios o pantallas del juego:
 
-El juego no se gana de forma definitiva porque es infinito, pero vas completando pantallas o "vueltas". Hay dos formas principales de pasar de nivel según la estructura del mapa:
+Escenario 1: Los Barriles (Ramps / 25m)
+Transcurre en la base de la construcción.
 
-* **Llegar a la meta:** En los primeros mapas, simplemente tenés que ingeniártelas para esquivar todo, trepar por las escaleras y alcanzar la plataforma más alta donde está la chica.
-* **Destruir la estructura:** En los niveles finales, el objetivo cambia. El mapa está sostenido por unos bloques amarillos (como pernos o tornillos). Para ganar, tenés que caminar o saltar por encima de todos esos bloques para quitarlos. Cuando lográs sacar el último, la estructura entera se desmorona, el gorila cae de cabeza y rescatás a la chica, haciendo que todo el ciclo vuelva a empezar desde el primer nivel pero con una dificultad mucho más agresiva.
+Dinámica: Al principio de la pantalla, Donkey Kong pisa fuerte, rompe la estructura (por eso las vigas quedan inclinadas) y empieza a tirar barriles desde arriba hacia abajo.
 
-### ¿Cómo se pierde?
+El tacho de aceite: Está abajo a la izquierda. Si un barril azul de DK cae ahí, se prende fuego y genera el primer enemigo "fueguito", que empieza a subir las escaleras para perseguir al jugador.
 
-Tenés un número limitado de vidas. Perdés una vida instantáneamente si:
+El martillo: Hay dos martillos que se pueden agarrar para destruir barriles y fueguitos por unos segundos.
 
-* Te toca un barril, un fuego o cualquier otro enemigo.
-* Te caés desde una plataforma que esté demasiado alta (el personaje no soporta caídas grandes y muere al tocar el suelo).
-* Se te termina el tiempo. Hay un contador en la esquina de la pantalla que va bajando constantemente; si llega a cero antes de que completes el objetivo, perdés una vida de inmediato.
+Objetivo: Subir esquivando o saltando barriles y usar las escaleras hasta llegar a la plataforma superior donde está Pauline.
 
-Si te quedás sin vidas, se termina la partida (*Game Over*).
+Escenario 2: La Fábrica de Cemento (Conveyor Belts / 50m)
+Transcurre en una planta de procesamiento.
 
-### El sistema de puntos
+Dinámica: Hay tres pisos con cintas transportadoras móviles. Dos van hacia una dirección y la del medio va al revés. Sobre las cintas se mueven unas "cajas de cemento" que te matan si te tocan.
 
-Prácticamente todo lo que hacés te suma puntaje para intentar romper el récord:
+Invasión de fueguitos: En esta pantalla no hay barriles. El peligro principal son múltiples fueguitos que salen constantemente de los dos hornos/tachos de aceite que están en el centro del mapa. Se mueven por todos lados subiendo y bajando escaleras.
 
-* **El bonus de tiempo:** Al terminar una pantalla, todo el tiempo que te haya sobrado en el contador se transforma directamente en puntos para tu marcador. Por eso, además de sobrevivir, te conviene ser rápido.
-* **Saltar obstáculos:** Cada vez que saltás con éxito por encima de un barril o de un enemigo, el juego te premia con puntos extra.
-* **Destruir cosas:** Si agarrás el martillo y machacás barriles o fuegos, sumás una buena cantidad de puntos por cada impacto.
-* **Agarrar objetos perdidos:** Por el escenario hay tirados algunos objetos de la chica (como carteras o paraguas) que podés pasar a juntar para conseguir un empujón de puntos.
-* **Vidas extra:** Si lográs jugar lo suficientemente bien y sumás muchos puntos, el juego te recompensa regalándote una vida más para que puedas estirar la partida.
+Escaleras móviles: Hay escaleras que suben y bajan o se cortan a la mitad de forma intermitente, obligándote a calcular el tiempo justo para subir.
+
+Objetivo: Llegar a la cima sorteando el cemento y la intensa presión de los fueguitos.
+
+Escenario 3: Los Ascensores (Elevators / 75m)
+Una pantalla que requiere muchísima precisión y cálculo de saltos.
+
+Dinámica: El mapa está dividido en varias columnas. La principal atracción son dos líneas de ascensores verticales que se mueven sin parar (una sube y la otra baja).
+
+Los rebotadores (Bouncers): Desde arriba, Donkey Kong tira unas vigas o resortes mecánicos que rebotan por la parte superior de la pantalla y caen al vacío justo por donde pasan los ascensores.
+
+Los fueguitos: Hay un par controlando las plataformas fijas para complicarte la subida inmediatamente después de salir del ascensor.
+
+Objetivo: Subir usando los ascensores en movimiento, esquivar los rebotadores calculando su parábola de caída y trepar por las escaleras del lado derecho hasta arriba de todo.
+
+Escenario 4: Los Remaches (Rivets / 100m)
+La batalla final de cada nivel. Acá no tenés que "llegar hasta Donkey Kong", sino ganarle por ingenio desarmando la estructura.
+
+Estrategia de desarme: El escenario está sostenido por 8 remaches amarillos brillantes en el suelo. El jugador tiene que caminar o saltar sobre ellos; al pasar por arriba, el remache desaparece.
+
+Presión constante: Mientras intentás sacar los remaches, varios fueguitos te persiguen de cerca. Como el mapa se va desarmando a medida que sacás los remaches, los caminos se vuelven callejones sin salida tanto para vos como para ellos.
+
+Objetivo: Quitar los 8 remaches. Cuando sacás el último, toda la estructura de vigas se desploma, Donkey Kong cae de cabeza quedando desmayado y se rescata a Pauline.
+
+Del nivel 2 en adelante (El Loop de Dificultad)
+Al terminar la pantalla 4, el juego vuelve a la pantalla 1, pero avanzando al Nivel 2. Para nuestra arquitectura de 16 bits, planteamos un sistema de dificultad progresiva que aumenta la velocidad de los barriles y la agresividad de los fueguitos un porcentaje fijo por nivel.
+
+Planteamos que este este bucle de aceleración escala hasta el Nivel 3 o 4, donde el juego alcanza su pico máximo de dificultad, ofreciendo el reto definitivo para el jugador sin tener que hacer infinito el juego.
+
+¿Cómo se gana?
+Al tratarse de un juego arcade infinito basado en puntaje y supervivencia, no existe una pantalla de victoria final absoluta. Se "gana" de forma parcial cada vez que lográs limpiar un escenario o completar un Nivel completo (las 4 pantallas). El verdadero objetivo de victoria para el jugador es maximizar su puntuación y lograr resistir los niveles 3 y 4, donde la velocidad del bucle del juego llega a su límite exigiendo reflejos perfectos.
+
+¿Cómo se pierde?
+Disponés de un número limitado de vidas (3 por defecto). Perdés una vida instantáneamente si:
+
+Te toca un barril, un fueguito o cualquier caja de cemento.
+
+Te caés desde una plataforma que esté demasiado alta (el personaje no soporta caídas de gran altura y muere al impactar).
+
+Se te termina el tiempo. Hay un contador de Bonus en la esquina de la pantalla que baja constantemente; si llega a cero antes de cumplir el objetivo de la pantalla, se pierde la vida de inmediato.
+
+Si te quedás sin vidas en reserva, la partida se termina de manera definitiva (Game Over).
+
+El sistema de puntos:
+Prácticamente todas las acciones recompensan al jugador para incentivar la competencia por el récord:
+
+El bonus de tiempo: Al terminar una pantalla, todo el valor restante en el contador de tiempo se transforma directamente en puntos netos para el marcador.
+
+Saltar obstáculos: Cada salto exitoso por encima de un barril o de un fueguito premia al jugador con puntos extra en tiempo real.
+
+Destruir enemigos: Al recolectar el martillo, cada barril o llama machacada suma una gran cantidad de puntos.
+
+Agarrar objetos perdidos: Dispersos por los escenarios se encuentran los accesorios de Pauline (carteras, sombreros, paraguas) que otorgan un fuerte empuje al puntaje al ser recolectados.
+
+Vida extra: Al alcanzar un umbral de puntuación alto determinado (ej. 7000 puntos), el sistema recompensa al jugador otorgándole una vida adicional para extender su partida.
