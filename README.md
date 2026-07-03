@@ -96,5 +96,5 @@ Prácticamente todas las acciones recompensan al jugador para incentivar la comp
 
 ### Mapa de Sprites Fueguito:
 
-<img width="128" height="16" alt="New Piskel" src="https://github.com/user-attachments/assets/7fb60c23-7f1b-4bdb-bd77-491d7538f71d" />
+<img width="320" height="200" alt="New Piskel" src="https://github.com/user-attachments/assets/7fb60c23-7f1b-4bdb-bd77-491d7538f71d" />
 
