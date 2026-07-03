@@ -53,15 +53,22 @@ La batalla final de cada nivel. Acá no tenés que "llegar hasta Donkey Kong", s
 * **Presión constante:** Mientras intentás sacar los remaches, varios fueguitos te persiguen de cerca. Como el mapa se va desarmando a medida que sacás los remaches, los caminos se vuelven callejones sin salida tanto para vos como para ellos.
 * **Objetivo:** Quitar los 8 remaches. Cuando sacás el último, toda la estructura de vigas se desploma, Donkey Kong cae de cabeza quedando desmayado y se rescata a Pauline.
 
-### Del nivel 2 en adelante (El Loop de Dificultad)
+### Del nivel 2 en adelante (El Loop de Dificultad Infinito)
 
-Al terminar la pantalla 4, el juego vuelve a la pantalla 1, pero avanzando al **Nivel 2**. Para nuestra arquitectura de 16 bits, planteamos un sistema de dificultad progresiva que aumenta la velocidad de los barriles y la agresividad de los fueguitos un porcentaje fijo por nivel.
+Al terminar la pantalla 4, el juego vuelve a la pantalla 1 avanzando de nivel de forma matemáticamente infinita. Para honrar el comportamiento de los arcades de los años 80, no existe un límite de niveles programado en el flujo de la CPU. 
 
-Planteamos que este este bucle de aceleración escala hasta el Nivel 3 o 4, donde el juego alcanza su pico máximo de dificultad, ofreciendo el reto definitivo para el jugador sin tener que hacer infinito el juego.
+La dificultad escala de manera orgánica e imperceptible entre niveles utilizando aritmética de punto fijo de 32 bits. En cada cambio de nivel, el sistema aplica un incremento fraccionario a las siguientes variables físicas del juego:
+* **Aceleración Fraccionaria de Sprites:** La velocidad de los barriles, rebotadores y fueguitos aumenta en un delta de píxel sutil por nivel. Esto genera una curva de aceleración suave donde el juego se siente cómodo al principio, pero acumula una velocidad frenética a medida que se encadenan los loops.
+* **Reducción de Ventanas de Spawn:** El temporizador de la CPU encargado de generar nuevos enemigos disminuye su ciclo de espera remanente, provocando que los tachos de aceite y Donkey Kong saturen los escenarios con mayor densidad de peligros en niveles avanzados.
+* **Presión del Temporizador:** El contador de *Bonus* de tiempo inicial se reduce levemente en cada nivel, obligando al jugador a ejecutar rutas perfectas sin margen de duda.
+
+---
 
 ### ¿Cómo se gana?
 
-Al tratarse de un juego arcade infinito basado en puntaje y supervivencia, no existe una pantalla de victoria final absoluta. Se "gana" de forma parcial cada vez que lográs limpiar un escenario o completar un Nivel completo (las 4 pantallas). El verdadero objetivo de victoria para el jugador es maximizar su puntuación y lograr resistir los niveles 3 y 4, donde la velocidad del bucle del juego llega a su límite exigiendo reflejos perfectos.
+Al tratarse de un sistema arcade genuino, **no existe una condición de victoria absoluta ni una pantalla de fin de juego exitoso**. El juego está diseñado bajo el concepto de la **superación de puntaje y el desafío biológico**. 
+
+El software correrá de forma indefinida loops de las 4 pantallas principales. El verdadero objetivo del jugador es la optimización de sus movimientos para alcanzar el "High Score" más alto posible y poner a prueba sus reflejos en la curva de dificultad matemática, la cual eventualmente superará la velocidad de respuesta humana (convirtiéndose en un desafío prácticamente imposible alrededor del nivel 10 o 12). La victoria es la superación del propio récord.
 
 ### ¿Cómo se pierde?
 
