@@ -89,3 +89,8 @@ Prácticamente todas las acciones recompensan al jugador para incentivar la comp
 * **Destruir enemigos:** Al recolectar el martillo, cada barril o llama machacada suma una gran cantidad de puntos.
 * **Agarrar objetos perdidos:** Dispersos por los escenarios se encuentran los accesorios de Pauline (carteras, sombreros, paraguas) que otorgan un fuerte empuje al puntaje al ser recolectados.
 * **Vida extra:** Al alcanzar un umbral de puntuación alto determinado (ej. 7000 puntos), el sistema recompensa al jugador otorgándole una vida adicional para extender su partida.
+
+### Sprites Base
+
+<img width="600" height="320" alt="spritesGeneral" src="https://github.com/user-attachments/assets/86006d83-bc70-4d55-9ecf-84ee5723bb20" />
+
