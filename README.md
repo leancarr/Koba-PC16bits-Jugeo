@@ -98,3 +98,6 @@ Prácticamente todas las acciones recompensan al jugador para incentivar la comp
 
 <img width="256" height="128" alt="New Piskel" src="https://github.com/user-attachments/assets/7fb60c23-7f1b-4bdb-bd77-491d7538f71d" />
 
+### Sprites Barriles:
+
+<img alt="Sprites Barriles" src="./Sprites/Sprites%20barriles%20juntos.png" />
