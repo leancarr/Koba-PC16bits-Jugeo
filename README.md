@@ -100,4 +100,4 @@ Prácticamente todas las acciones recompensan al jugador para incentivar la comp
 
 ### Sprites Barriles:
 
-<img alt="Sprites Barriles" src="./Sprites/Sprites%20barriles%20juntos.png" />
+<img alt="Sprites Barriles" src="./Sprites/Sprites%20barriles%20juntos.png" width="600" />
